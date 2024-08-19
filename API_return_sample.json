@@ -1,0 +1,49 @@
+{
+  "remote_ip": "127.0.0.1",
+  "remote_port": 2002,
+  "url": "http://localhost:2002/api/products",
+  "status": 201,
+  "status_text": "201 Created",
+  "proto": "HTTP/1.1",
+  "headers": {
+    "Date": "Fri, 16 Aug 2024 18:07:40 GMT",
+    "Content-Length": "59",
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": "Microsoft-HTTPAPI/2.0",
+    "Company": "Edgewords Ltd"
+  },
+  "cookies": {},
+  "body": "{\r\n  \"id\": 41327,\r\n  \"name\": \"black cat\",\r\n  \"price\": 13\r\n}",
+  "timings": {
+    "duration": 0,
+    "blocked": 0,
+    "looking_up": 0,
+    "connecting": 0,
+    "tls_handshaking": 0,
+    "sending": 0,
+    "waiting": 0,
+    "receiving": 0
+  },
+  "tls_version": "",
+  "tls_cipher_suite": "",
+  "ocsp": {
+    "produced_at": 0,
+    "this_update": 0,
+    "next_update": 0,
+    "revoked_at": 0,
+    "revocation_reason": "",
+    "status": ""
+  },
+  "error": "",
+  "error_code": 0,
+  "request": {
+    "method": "POST",
+    "url": "http://localhost:2002/api/products",
+    "headers": {
+      "User-Agent": ["k6/0.53.0 (https://k6.io/)"],
+      "Content-Type": ["application/json"]
+    },
+    "body": "{\"name\":\"black cat\",\"price\":\"13\"}",
+    "cookies": {}
+  }
+}
